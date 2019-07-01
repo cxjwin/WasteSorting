@@ -1,0 +1,24 @@
+PODS:
+  - ALCameraViewController (3.0.3)
+  - SwiftIconFont (3.0.0)
+  - YNSearch (2.4.0)
+
+DEPENDENCIES:
+  - ALCameraViewController
+  - SwiftIconFont
+  - YNSearch
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ALCameraViewController
+    - SwiftIconFont
+    - YNSearch
+
+SPEC CHECKSUMS:
+  ALCameraViewController: 6398a9282057f709b87a1ecc52a83b48028ade64
+  SwiftIconFont: 2ba18554a77c44948dc35b561b344e3c23834a84
+  YNSearch: 56d4aad4547fd1efce355cccc220a94735b1ea14
+
+PODFILE CHECKSUM: dcbf1c139a007534f29a4f5f4a10adad9e0546ea
+
+COCOAPODS: 1.5.0
