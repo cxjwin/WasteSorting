@@ -1,5 +1,8 @@
 source 'https://github.com/CocoaPods/Specs.git'
-include_official_source!
+
+if respond_to? :include_official_source
+  include_official_source!
+end
 
 # Uncomment the next line to define a global platform for your project
 platform :ios, '11.0'
@@ -9,8 +12,8 @@ target 'WasteSorting' do
   use_frameworks!
 
   # Pods for WasteSorting
-  pod 'ALCameraViewController'
-  pod 'SwiftIconFont'
+  pod 'ALCameraViewController', :git => 'https://github.com/cxjwin/ALCameraViewController.git', :branch => 'master'
+  pod 'SwiftIconFont', :git => 'https://github.com/cxjwin/SwiftIconFont.git', :branch => 'master'
   pod 'YNSearch'
 
 end

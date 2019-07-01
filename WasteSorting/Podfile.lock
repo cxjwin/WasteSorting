@@ -1,24 +1,38 @@
 PODS:
   - ALCameraViewController (3.0.3)
-  - SwiftIconFont (3.0.0)
+  - SwiftIconFont (4.0.0)
   - YNSearch (2.4.0)
 
 DEPENDENCIES:
-  - ALCameraViewController
-  - SwiftIconFont
+  - ALCameraViewController (from `https://github.com/cxjwin/ALCameraViewController.git`, branch `master`)
+  - SwiftIconFont (from `https://github.com/cxjwin/SwiftIconFont.git`, branch `master`)
   - YNSearch
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - ALCameraViewController
-    - SwiftIconFont
+  https://github.com/cocoapods/specs.git:
     - YNSearch
 
+EXTERNAL SOURCES:
+  ALCameraViewController:
+    :branch: master
+    :git: https://github.com/cxjwin/ALCameraViewController.git
+  SwiftIconFont:
+    :branch: master
+    :git: https://github.com/cxjwin/SwiftIconFont.git
+
+CHECKOUT OPTIONS:
+  ALCameraViewController:
+    :commit: 46046e56a71cdd68f2a2f022006bdf81db29a6c8
+    :git: https://github.com/cxjwin/ALCameraViewController.git
+  SwiftIconFont:
+    :commit: 6d75d436129dff83a2729518d57e60cbabc32ed6
+    :git: https://github.com/cxjwin/SwiftIconFont.git
+
 SPEC CHECKSUMS:
-  ALCameraViewController: 6398a9282057f709b87a1ecc52a83b48028ade64
-  SwiftIconFont: 2ba18554a77c44948dc35b561b344e3c23834a84
+  ALCameraViewController: f4a52c7b2d75df179d5e34c1c5c4a2a219c8f368
+  SwiftIconFont: b3f469e1c77d66abd3417408e922920affc6d8e9
   YNSearch: 56d4aad4547fd1efce355cccc220a94735b1ea14
 
-PODFILE CHECKSUM: dcbf1c139a007534f29a4f5f4a10adad9e0546ea
+PODFILE CHECKSUM: 55db3359694e63f75ac05a8ea486dd983544181c
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.6.1
